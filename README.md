@@ -6,3 +6,5 @@ Dentro del la pagina Home esta todo lo util para que posibles clientes sepan los
 Tambien cuenta con un formulario de Contacto, y una seccion de FAQ respondiendo algunas dudas simples y mas frecuentes que suelo recibir, con el objetivo de limitar el uso del formulario de contacto a consultas mas tecnicas.
 
 Y por ultimo esta de la seccion de Blog que sera utilizado mas que nada para hacer actualizaciones de noticias referida para el mundo de la tecnologia y games.
+
+Dejo a continuacion, el video de mi proyecto en funcionamiento : https://www.youtube.com/watch?v=bV_tVh5-vas
