@@ -1,0 +1,54 @@
+    {% extends 'App/base.html' %}
+    {% load static %}
+
+        {% block contenido1 %}
+            <!-- Page Content-->
+            <section class="py-5">
+                <div class="container px-5">
+                    <h1 class="fw-bolder fs-5 mb-4">Company Blog</h1>
+                    <div class="card border-0 shadow rounded-3 overflow-hidden">
+                        <div class="card-body p-0">
+                            <div class="row gx-0">
+                                <div class="col-lg-6 col-xl-5 py-lg-5">
+                                    <div class="p-4 p-md-5">
+                                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
+                                        <div class="h2 fw-bolder">Un nuevo juego de Alien </div>
+                                        <p>La century Fox nos vuelve a hacer feliz con una nueva entrega de Alien, y usando el Unreal 5 para disfrutar de la mejor calidad de imagenes.</p>
+                                        <a class="stretched-link text-decoration-none" href="https://hipertextual.com/2022/07/aliens-juego-pc-vr-consolas">
+                                            Read more
+                                            <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-xl-7"><div class="bg-featured-blog" style="background-image: url('https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2022/07/ss_5a5c3e8b2c8e7a1c1209c310ab95a020eb590cd4.1920x1080.jpg?resize=800%2C450&quality=50&strip=all&ssl=1')"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="py-5 bg-light">
+                <div class="container px-5">
+                    <div class="row gx-5">
+                        <div class="col-xl-8">
+                            <h2 class="fw-bolder fs-5 mb-4">News</h2>
+                            <!-- News item-->
+                            <div class="mb-4">
+                                <div class="small text-muted">Julio 8, 2022</div>
+                                <a class="link-dark" href="https://www.3djuegospc.com/tarjetas-graficas/nvidia-rtx-4000-fecha-lanzamiento-especificaciones-precios-otros-datos-estas-nuevas-tarjetas-graficas"><h3>La nueva bestia Nvidia RTX 4090 podria venir este año, doblando en potencia a la serie 3000 </h3></a>
+                            </div>
+                            <!-- News item-->
+                            <div class="mb-5">
+                                <div class="small text-muted">Mayo 20, 2022</div>
+                                <a class="link-dark" href="https://www.lanacion.com.ar/tecnologia/samsung-extiende-su-alianza-con-pokemon-a-sus-galaxy-buds-2-con-un-estuche-en-forma-de-pokebola-nid20052022/"><h3>Si sos fan de Pokemon, los nuevos Galaxy Buds 2 te van a encantar </h3></a>
+                            </div>
+                            <!-- News item-->
+                            <div class="mb-5">
+                                <div class="small text-muted">Mayo 18, 2022</div>
+                                <a class="link-dark" href="https://www.lanacion.com.ar/tecnologia/samsung-extiende-su-alianza-con-pokemon-a-sus-galaxy-buds-2-con-un-estuche-en-forma-de-pokebola-nid20052022/"><h3>Si lo tuyo son las notebooks gamer, esta te va a volver loco.</h3></a>
+                            </div>                           
+                        </div>
+                    </div>
+                </div>
+            </section>            
+        {%endblock%}
+

@@ -1,0 +1,67 @@
+    {% extends 'App/base.html' %}
+    {% load static %}
+
+        {% block contenido1 %}
+            <!-- Page Content-->
+            <section class="py-5">
+                <div class="container px-5 my-5">
+                    <div class="text-center mb-5">
+                        <h1 class="fw-bolder">Preguntas Frecuentes </h1>
+                        <p class="lead fw-normal text-muted mb-0">Como podemos ayudarte ?</p>
+                    </div>
+                    <div class="row gx-5">
+                        <div class="col-xl-8">
+                            <!-- FAQ Accordion 1-->
+                            <h2 class="fw-bolder mb-3">Sobre nuestros servicios</h2>
+                            <div class="accordion mb-5" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="headingOne"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Cuanto sale la limpieza de una computadora?</button></h3>
+                                    <div class="accordion-collapse collapse show" id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            En lo que respecta a la limpieza de una PC te damos un precio base, pero puede llegar a variar aumentando su valor dependiendo de la suciedad que contenga la misma.
+                                            Las limpiezas son a fondo incluyendo el cambio de pasta termica, y dependiendo del analisis del tecnico podria sumarse incluso una limpieza de la fuente de alimentacion.                                        
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="headingTwo"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Cuanto tiempo tardan en entregar un trabajo ?</button></h3>
+                                    <div class="accordion-collapse collapse" id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                        Dependiendo de la magnitud o el estilo del trabajo, pero siempre tratamos de finalizar de manera eficiente y rapida.
+                                        Ya que somos concientes de que aveces la computadora es una herramienta de trabajo de nuestro cliente.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="headingThree"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Trabajan con cualquier dispositivo ?</button></h3>
+                                    <div class="accordion-collapse collapse" id="collapseThree" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                        Por el momento ChiquiService solo se especializa en computadoras tanto de escritorio, como computadoras portatiles. En un futuro ampliariamos nuestros horizontes a dispositivos moviles.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4">
+                            <div class="card border-0 bg-light mt-xl-5">
+                                <div class="card-body p-4 py-lg-5">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <div class="text-center">
+                                            <div class="h6 fw-bolder">Tenes mas preguntas ?</div>
+                                            <p class="text-muted mb-4">
+                                                Contactanos, asunto Preguntas                                                 
+                                                <br />
+                                                <a href="#!">SrChiquis@gmail.com</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    
+        {% endblock %}

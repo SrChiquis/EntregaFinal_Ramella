@@ -1,0 +1,109 @@
+         {% extends 'App/base.html' %}  
+
+         {% load static %}
+
+         {% block contenido1 %}
+           <!-- Header-->
+            <header class="bg-dark py-5">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-5 fw-bolder text-white mb-2">Tu servicio tecnico de confianza ChiquiService</h1>
+                                <p class="lead fw-normal text-white-50 mb-4">Sabemos que no todos entienden de esto, por eso estamos dispuestos a ayudarte y asesorarte honestamente. No existe consulta tonta, tonto es no consultar!</p>
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="{% url 'Contacto' %}">Consulta!</a>
+                                    <a class="btn btn-outline-light btn-lg px-4" href="#scroll_target">Leer mas</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="https://cdn.diferenciador.com/imagenes/tipos-de-computadoras-og.jpg" alt="..." /></div>
+                    </div>
+                </div>
+            </header>
+            <!-- Features section-->
+            <section class="py-5" >
+                <div class="container px-5 my-5">
+                    <div class="row gx-5">
+                        <div class="col-lg-4 mb-5 mb-lg-0"><h2 class="fw-bolder mb-0"> Que servicios podemos ofrecerte.</h2></div>
+                        <div class="col-lg-8">
+                            <div class="row gx-5 row-cols-1 row-cols-md-2">
+                                <div class="col mb-5 h-100">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-tools"></i></div>
+                                    <h2 class="h5">Limpieza de Pc</h2>
+                                    <p class="mb-0">Ofrecemos limpieza profunda de tu computadora, para que quede como recien comprada.</p>
+                                </div>
+                                <div class="col mb-5 h-100">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-tools"></i></div>
+                                    <h2 class="h5">Formateo e instalacion de programas</h2>
+                                    <p class="mb-0">Formateamos e instalamos el S.O mas adecuado, y cualquier programa que nos pidas lo dejamos instalados listos para usar.</p>
+                                </div>
+                                <div class="col mb-5 mb-md-0 h-100">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-tools"></i></div>
+                                    <h2 class="h5">Diagnostico General</h2>
+                                    <p class="mb-0">Te ayudamos a comprender cualquier fallo que presente tu equipo, y ayudarte lo mejor que podamos.</p>
+                                </div>
+                                <div class="col h-100">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-tools"></i></div>
+                                    <h2 class="h5">Asesoramiento</h2>
+                                    <p class="mb-0">Si estas buscando comprar una pc nueva, te guiamos hacia el camino mas adecuado dependiendo de tus necesidades.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+            </section>  
+
+            <!-- About -->
+            <section class="py-5" id="scroll_target">
+                <div class="container px-5" >
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 col-xxl-6">
+                            <div class="text-center my-5">
+                                <h1 class="fw-bolder mb-3">Nuestra mision es ayudarte a entender a tu computadora.</h1>
+                                <p class="lead fw-normal text-muted mb-4">En nuestro servicio tecnico somos concientes que no todos logran comprender lo que sucede con su computadora cuando no anda, por eso nos centramos en ser lo mas claros.</p>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- About section one-->
+            <section class="py-5 bg-light">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="https://us.123rf.com/450wm/benzoix/benzoix2108/benzoix210805503/172654011-retrato-de-un-joven-hispano-feliz-y-alegre-que-hace-una-declaración-honesta-promete-decir-solo-la-ve.jpg?ver=6" alt="..." /></div>
+                        <div class="col-lg-6">
+                            <h2 class="fw-bolder">Sin vueltas</h2>
+                            <p class="lead fw-normal text-muted mb-0">Nosotros sabemos lo feo que es que te den vueltas y no te den respuestas claras y sobre todo busquen sacar mas plata de la debida. Por eso siempre vamos a ser de lo mas honestos con nuestros precios y nuestros diagnosticos.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- About section two-->
+            <section class="py-5">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="https://us.123rf.com/450wm/samuraitop/samuraitop1708/samuraitop170800026/83434406-hombre-joven-que-duda-ilustración-del-concepto-de-negocio-.jpg?ver=6" alt="..." /></div>
+                        <div class="col-lg-6">
+                            <h2 class="fw-bolder">Que camino elegir</h2>
+                            <p class="lead fw-normal text-muted mb-0">Con decirnos cuales son tus necesidades a la hora de comprar una nueva computadora, te vamos a asesorar para ponerte en el camino correcto en cuanto a precio y calidad.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>  
+            <section class="py-5">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 align-items-center">                        
+                        <div class="col-lg-6">
+                            <h2 class="fw-bolder">Si tenes dudas revisa nuestro FAQ </h2>
+                            <a class="btn btn-primary btn-lg px-4 me-sm-3" href="{% url 'Faq' %}">FAQ!</a>
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>        
+            
+        </main>
+        {% endblock %}     
+        
