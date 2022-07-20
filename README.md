@@ -7,4 +7,8 @@ Tambien cuenta con un formulario de Contacto, y una seccion de FAQ respondiendo 
 
 Y por ultimo esta de la seccion de Blog que sera utilizado mas que nada para hacer actualizaciones de noticias referida para el mundo de la tecnologia y games.
 
-Dejo a continuacion, el video de mi proyecto en funcionamiento : https://www.youtube.com/watch?v=bV_tVh5-vas
+Mi pagina ya se encuentra hosteada en en pythonanywhere, dejo a continuacion el link http://chiquiservice.pythonanywhere.com/App/
+
+
+Tambien dejo a continuacion, el video de mi proyecto en funcionamiento : https://www.youtube.com/watch?v=bV_tVh5-vas
+
